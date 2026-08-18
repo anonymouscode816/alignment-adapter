@@ -22,6 +22,7 @@ The compressed models considered are:
 
 | Model | Description |
 |---|---|
+| DistilBERT | Compressed BERT model created via Knowledge Distillation |
 | ASC | Application-specific compressed BERT model |
 | BERT-Mini | Compact BERT model with a smaller hidden dimension |
 | BERT-Tiny | Highly compressed BERT model |
@@ -57,6 +58,7 @@ For EQA, adapter-based fine-tuning is implemented using multiple task-specific s
 
 The same general experimental structure is followed for **POS**, **NER**, and **EQA** using the following compressed models:
 
+- DistilBERT
 - ASC
 - BERT-Mini
 - BERT-Tiny
